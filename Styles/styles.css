@@ -551,6 +551,30 @@ video {
   height: auto;
 }
 
+@font-face{
+  font-family: Apercu;
+
+  src: url(Apercu_Regular.otf);
+
+  font-weight: 400;
+}
+
+@font-face{
+  font-family: Apercu-Pro-Mono;
+
+  src: url(Apercu_Pro_Mono.otf);
+
+  font-weight: 300;
+}
+
+@font-face{
+  font-family: Euclid-Triangle;
+
+  src: url(EuclidTriangle-Medium.ttf);
+
+  font-weight: bold;
+}
+
 .container {
   width: 100%;
 }
@@ -9150,16 +9174,16 @@ video {
   clear: none;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-Apercu {
+  font-family: Apercu;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+.font-Apercu_Pro_Mono {
+  font-family: Apercu-Pro-Mono;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.font-Euclid_Triangle {
+  font-family: Euclid-Triangle;
 }
 
 .font-thin {
@@ -37711,16 +37735,16 @@ video {
     clear: none;
   }
 
-  .sm\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .sm\:font-Apercu {
+    font-family: Apercu;
   }
 
-  .sm\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .sm\:font-Apercu_Pro_Mono {
+    font-family: Apercu-Pro-Mono;
   }
 
-  .sm\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .sm\:font-Euclid_Triangle {
+    font-family: Euclid-Triangle;
   }
 
   .sm\:font-thin {
@@ -66194,16 +66218,16 @@ video {
     clear: none;
   }
 
-  .md\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .md\:font-Apercu {
+    font-family: Apercu;
   }
 
-  .md\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .md\:font-Apercu_Pro_Mono {
+    font-family: Apercu-Pro-Mono;
   }
 
-  .md\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .md\:font-Euclid_Triangle {
+    font-family: Euclid-Triangle;
   }
 
   .md\:font-thin {
@@ -94677,16 +94701,16 @@ video {
     clear: none;
   }
 
-  .lg\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .lg\:font-Apercu {
+    font-family: Apercu;
   }
 
-  .lg\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .lg\:font-Apercu_Pro_Mono {
+    font-family: Apercu-Pro-Mono;
   }
 
-  .lg\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .lg\:font-Euclid_Triangle {
+    font-family: Euclid-Triangle;
   }
 
   .lg\:font-thin {
@@ -123160,16 +123184,16 @@ video {
     clear: none;
   }
 
-  .xl\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .xl\:font-Apercu {
+    font-family: Apercu;
   }
 
-  .xl\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .xl\:font-Apercu_Pro_Mono {
+    font-family: Apercu-Pro-Mono;
   }
 
-  .xl\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .xl\:font-Euclid_Triangle {
+    font-family: Euclid-Triangle;
   }
 
   .xl\:font-thin {
@@ -151643,16 +151667,16 @@ video {
     clear: none;
   }
 
-  .\32xl\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .\32xl\:font-Apercu {
+    font-family: Apercu;
   }
 
-  .\32xl\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .\32xl\:font-Apercu_Pro_Mono {
+    font-family: Apercu-Pro-Mono;
   }
 
-  .\32xl\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .\32xl\:font-Euclid_Triangle {
+    font-family: Euclid-Triangle;
   }
 
   .\32xl\:font-thin {
