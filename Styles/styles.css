@@ -555,16 +555,12 @@ video {
   font-family: Apercu;
 
   src: url(Fonts/Apercu_Regular.otf);
-
-  font-weight: 400;
 }
 
 @font-face{
   font-family: Apercu-Pro-Mono;
 
   src: url(Fonts/Apercu_Pro_Mono.otf);
-
-  font-weight: 300;
 }
 
 @font-face{
