@@ -11803,6 +11803,10 @@ video {
   margin: 20rem;
 }
 
+.m-86 {
+  margin: 86px;
+}
+
 .m-96 {
   margin: 24rem;
 }
@@ -12259,6 +12263,16 @@ video {
 .mx-80 {
   margin-left: 20rem;
   margin-right: 20rem;
+}
+
+.my-86 {
+  margin-top: 86px;
+  margin-bottom: 86px;
+}
+
+.mx-86 {
+  margin-left: 86px;
+  margin-right: 86px;
 }
 
 .my-96 {
@@ -13143,6 +13157,22 @@ video {
 
 .ml-80 {
   margin-left: 20rem;
+}
+
+.mt-86 {
+  margin-top: 86px;
+}
+
+.mr-86 {
+  margin-right: 86px;
+}
+
+.mb-86 {
+  margin-bottom: 86px;
+}
+
+.ml-86 {
+  margin-left: 86px;
 }
 
 .mt-96 {
@@ -42558,6 +42588,10 @@ video {
     margin: 20rem;
   }
 
+  .sm\:m-86 {
+    margin: 86px;
+  }
+
   .sm\:m-96 {
     margin: 24rem;
   }
@@ -43014,6 +43048,16 @@ video {
   .sm\:mx-80 {
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+
+  .sm\:my-86 {
+    margin-top: 86px;
+    margin-bottom: 86px;
+  }
+
+  .sm\:mx-86 {
+    margin-left: 86px;
+    margin-right: 86px;
   }
 
   .sm\:my-96 {
@@ -43898,6 +43942,22 @@ video {
 
   .sm\:ml-80 {
     margin-left: 20rem;
+  }
+
+  .sm\:mt-86 {
+    margin-top: 86px;
+  }
+
+  .sm\:mr-86 {
+    margin-right: 86px;
+  }
+
+  .sm\:mb-86 {
+    margin-bottom: 86px;
+  }
+
+  .sm\:ml-86 {
+    margin-left: 86px;
   }
 
   .sm\:mt-96 {
@@ -73235,6 +73295,10 @@ video {
     margin: 20rem;
   }
 
+  .md\:m-86 {
+    margin: 86px;
+  }
+
   .md\:m-96 {
     margin: 24rem;
   }
@@ -73691,6 +73755,16 @@ video {
   .md\:mx-80 {
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+
+  .md\:my-86 {
+    margin-top: 86px;
+    margin-bottom: 86px;
+  }
+
+  .md\:mx-86 {
+    margin-left: 86px;
+    margin-right: 86px;
   }
 
   .md\:my-96 {
@@ -74575,6 +74649,22 @@ video {
 
   .md\:ml-80 {
     margin-left: 20rem;
+  }
+
+  .md\:mt-86 {
+    margin-top: 86px;
+  }
+
+  .md\:mr-86 {
+    margin-right: 86px;
+  }
+
+  .md\:mb-86 {
+    margin-bottom: 86px;
+  }
+
+  .md\:ml-86 {
+    margin-left: 86px;
   }
 
   .md\:mt-96 {
@@ -103912,6 +104002,10 @@ video {
     margin: 20rem;
   }
 
+  .lg\:m-86 {
+    margin: 86px;
+  }
+
   .lg\:m-96 {
     margin: 24rem;
   }
@@ -104368,6 +104462,16 @@ video {
   .lg\:mx-80 {
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+
+  .lg\:my-86 {
+    margin-top: 86px;
+    margin-bottom: 86px;
+  }
+
+  .lg\:mx-86 {
+    margin-left: 86px;
+    margin-right: 86px;
   }
 
   .lg\:my-96 {
@@ -105252,6 +105356,22 @@ video {
 
   .lg\:ml-80 {
     margin-left: 20rem;
+  }
+
+  .lg\:mt-86 {
+    margin-top: 86px;
+  }
+
+  .lg\:mr-86 {
+    margin-right: 86px;
+  }
+
+  .lg\:mb-86 {
+    margin-bottom: 86px;
+  }
+
+  .lg\:ml-86 {
+    margin-left: 86px;
   }
 
   .lg\:mt-96 {
@@ -134589,6 +134709,10 @@ video {
     margin: 20rem;
   }
 
+  .xl\:m-86 {
+    margin: 86px;
+  }
+
   .xl\:m-96 {
     margin: 24rem;
   }
@@ -135045,6 +135169,16 @@ video {
   .xl\:mx-80 {
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+
+  .xl\:my-86 {
+    margin-top: 86px;
+    margin-bottom: 86px;
+  }
+
+  .xl\:mx-86 {
+    margin-left: 86px;
+    margin-right: 86px;
   }
 
   .xl\:my-96 {
@@ -135929,6 +136063,22 @@ video {
 
   .xl\:ml-80 {
     margin-left: 20rem;
+  }
+
+  .xl\:mt-86 {
+    margin-top: 86px;
+  }
+
+  .xl\:mr-86 {
+    margin-right: 86px;
+  }
+
+  .xl\:mb-86 {
+    margin-bottom: 86px;
+  }
+
+  .xl\:ml-86 {
+    margin-left: 86px;
   }
 
   .xl\:mt-96 {
@@ -165266,6 +165416,10 @@ video {
     margin: 20rem;
   }
 
+  .\32xl\:m-86 {
+    margin: 86px;
+  }
+
   .\32xl\:m-96 {
     margin: 24rem;
   }
@@ -165722,6 +165876,16 @@ video {
   .\32xl\:mx-80 {
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+
+  .\32xl\:my-86 {
+    margin-top: 86px;
+    margin-bottom: 86px;
+  }
+
+  .\32xl\:mx-86 {
+    margin-left: 86px;
+    margin-right: 86px;
   }
 
   .\32xl\:my-96 {
@@ -166606,6 +166770,22 @@ video {
 
   .\32xl\:ml-80 {
     margin-left: 20rem;
+  }
+
+  .\32xl\:mt-86 {
+    margin-top: 86px;
+  }
+
+  .\32xl\:mr-86 {
+    margin-right: 86px;
+  }
+
+  .\32xl\:mb-86 {
+    margin-bottom: 86px;
+  }
+
+  .\32xl\:ml-86 {
+    margin-left: 86px;
   }
 
   .\32xl\:mt-96 {
