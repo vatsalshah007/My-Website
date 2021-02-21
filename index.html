@@ -8,29 +8,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body class="bg-whiteish">
-        <div> <!-- Wrapper -->
+        <div class="flex justify-evenly mx-auto mt-4 w-full max-w-1266"> <!-- Wrapper -->
             <!-- Left Panel Start -->
-            <nav class="font-Euclid_Triangle">
-                <ul> <!-- Navigation Menu -->
+            <nav class="flex flex-col w-full max-w-201 p-2 font-Euclid_Triangle">
+                <ul class="flex flex-col items-end"> <!-- Navigation Menu -->
                     <li>
                         <a href="#">
-                            <span>Home</span>
+                            <span class="text-navItems">Home</span>
                         </a>
                     </li>
                     
                     <li>
                         <a href="#">
-                            <span>Projects</span>
+                            <span class="text-navItems">Projects</span>
                         </a>
                     </li>
                     
                     <li>
                         <a href="#">
-                            <span>Contact</span>
+                            <span class="text-navItems">Contact</span>
                         </a>
                     </li>
                 </ul>
-                <ul> <!-- Social Media Links -->
+                <ul class="flex justify-between items-center mt-3 pl-5"> <!-- Social Media Links -->
                     <li>
                         <a href="https://www.behance.net/vatsalshah007" target="blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32.671" height="20.482" viewBox="0 0 32.671 20.482">
@@ -64,18 +64,22 @@
             <!-- Left Panel End -->
 
             <!-- Right Panel Start -->
-            <main>
-                <header>
-                    <h1 class="font-Apercu">Vatsal Shah</h1>
-                    <h3 class="font-Apercu_Pro_Mono">designer/developer</h3>
-                    <img class="" src="CSI_ID.png">         
+            <main class="flex flex-col p-2">
+                <header class="flex justify-evenly">
+                    <div class="flex flex-col justify-center">
+                        <h1 class="font-Apercu text-name">Vatsal Shah</h1>
+                            <h3>
+                                <span class="font-Apercu_Pro_Mono text-designation shadow-desigFull">designer/developer</span>
+                            </h3>
+                    </div>
+                    <img class="" src="Pics\CSI_ID.png">         
                 </header>
 
                 <!-- About Section Starts -->
                 <div>
                     <h4 class='font-Euclid_Triangle'>About Me</h4>
                     <div>
-                        <img>
+                        <img><!-- Insert a good pic here -->
                         <p class='font-Euclid_Triangle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum harum quam beatae quisquam reiciendis corrupti asperiores sequi repellendus aliquam odit vitae accusamus fugit repudiandae et ut mollitia cumque, quod pariatur.</p>
                         <!-- Skill Icons go here -->
                         <ul class='font-Apercu_Pro_Mono'> <!-- Row 1 -->
@@ -180,15 +184,17 @@
                 <!-- Project Section Ends -->
 
                 <!-- Contact Section Starts -->
-                <div>
+                <div class="flex flex-col">
                     <h4 class="font-Euclid_Triangle">Contact Me</h4>
                     <div>
-                        <form>
-                            <input type="text" placeholder="name">
-                            <input type="email" placeholder="email address">
-                            <input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="mobile number">
-                            <textarea rows="4" cols="50" placeholder="description"></textarea>
-                            <button type="submit" class="border-2 border-red-500">submit</button>
+                        <form class="flex flex-col justify-evenly">
+                            <input class="m-1 p-1" type="text" placeholder="name">
+                            <input class="m-1 p-1" type="email" placeholder="email address">
+                            <input class="m-1 p-1" type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="mobile number">
+                            <textarea class="m-1 p-1" rows="4" cols="50" placeholder="description"></textarea>
+                            <span class="flex justify-center">
+                                <button type="submit" class="m-1 p-1 border-2 border-red-500">submit</button>
+                            </span>
                         </form>
                     </div>
                 </div>
@@ -199,7 +205,7 @@
 
         <!-- Footer Starts -->
         <footer class="bg-gray-700">  
-            <p>copyright Vatsal Shah</p>
+            <p>© copyright Vatsal Shah</p>
         </footer>
     </body>
 </html>
