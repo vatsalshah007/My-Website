@@ -8,26 +8,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body class="bg-whiteish">
-        <div class="flex justify-evenly mx-auto w-full max-w-1266"> <!-- Wrapper -->
+        <div id="wrapper" class="flex justify-evenly mx-auto w-full max-w-1266"> <!-- Wrapper -->
             <!-- Left Panel Start -->
             <div class="w-full mt-86 max-w-201 relative">
                 <nav id="sticky_nav" class="flex flex-col w-full max-w-201 p-2 font-Euclid_Triangle font-bold">
                     <ul class="flex flex-col items-end"> <!-- Navigation Menu -->
                         <li>
                             <a href="#">
-                                <span class="text-navItems transition duration-500 ease-in-out shadow-navBgOffset hover:shadow-navBgOffset">Home</span>
+                                <span id="homeBtn" class="text-navItems transition duration-500 ease-in-out shadow-navBgOffset hover:shadow-navBgOffset" onclick="homeClick()">Home</span>
                             </a>
                         </li>
                         
                         <li>
                             <a href="#">
-                                <span class="text-navItems transition duration-500 ease-in-out hover:shadow-navBgOffset">Projects</span>
+                                <span id="projectsBtn" class="text-navItems transition duration-500 ease-in-out hover:shadow-navBgOffset" onclick="">Projects</span>
                             </a>
                         </li>
                         
                         <li>
-                            <a href="#">
-                                <span class="text-navItems transition duration-500 ease-in-out hover:shadow-navBgOffset">Contact</span>
+                            <a href="#contactMe">
+                                <span id="contactBtn" class="text-navItems transition duration-500 ease-in-out hover:shadow-navBgOffset" onclick="contactClick()">Contact</span>
                             </a>
                         </li>
                     </ul>
@@ -70,8 +70,8 @@
             <div class="h-auto border-r-2 border-gray-200"></div>
 
             <!-- Right Panel Start -->
-            <main class="mt-86 flex flex-col p-2">
-                <header class="flex justify-evenly">
+            <main id="mainHome" class="mt-86 flex flex-col p-2 w-full max-w-1003">
+                <header id="intro" class="flex justify-evenly">
                     <div class="flex flex-col justify-center">
                         <h1 class="font-Apercu text-name">Vatsal Shah</h1>
                             <h3>
@@ -81,10 +81,10 @@
                     <img class="" src="Pics\CSI_ID.png">         
                 </header>
 
-                <hr class="mt-86 mb-57 h-auto border-b border-gray-200">
+                <hr id="hPartition" class="mt-86 mb-57 h-auto border-b border-gray-200">
 
                 <!-- About Section Starts -->
-                <div class="flex flex-col  w-full max-w-1003">
+                <div id="aboutMe" class="flex flex-col w-full max-w-1003">
                     <h4 class='m-auto shadow-headingsOffsetP font-Euclid_Triangle text-headings'>About Me</h4>
                     <div class="mx-15">
                         <img><!-- Insert a good pic here -->
@@ -171,10 +171,10 @@
                 </div> 
                 <!-- About Section Ends -->
 
-                <hr class="my-57 h-auto border-b border-gray-200">
+                <hr id="hPartition" class="my-57 h-auto border-b border-gray-200">
 
                 <!-- Projects Section Starts -->
-                <div class="flex flex-col">
+                <div id="myProjects" class="flex flex-col">
                     <h4 class="mx-auto mb-57 shadow-headingsOffsetY font-Euclid_Triangle text-headings">My Projects</h4>
                     <div class="flex flex-col">
                         <div class="flex justify-evenly w-1003 h-440 mb-50 mx-15 p-50 border rounded-50 font-Apercu_Pro_Mono">
@@ -194,11 +194,11 @@
                 </div>
                 <!-- Project Section Ends -->
 
-                <hr class="my-57 h-auto border-b border-gray-200">
+                <hr id="hPartition" class="my-57 h-auto border-b border-gray-200">
                 
                 <!-- Contact Section Starts -->
-                <div class="flex flex-col">
-                    <h4 class="mx-auto mb-57 shadow-headingsOffsetP font-Euclid_Triangle text-headings">Contact Me</h4>
+                <div id="contactMe" class="flex flex-col">
+                    <h4 id="contactHeader" class="mx-auto mb-57 shadow-headingsOffsetP font-Euclid_Triangle text-headings">Contact Me</h4>
                     <div>
                         <form class="flex flex-col justify-evenly font-Euclid_Triangle">
                             <input class="mb-47 p-1 mx-auto focus:outline-none focus:ring-2 focus:ring-myPurple-200 w-651 h-68 rounded-lg" type="text" placeholder="name">
